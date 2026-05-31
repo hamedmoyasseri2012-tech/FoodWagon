@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./src/style.css" />
     <title>foodwagon</title>
   </head>
-  <body class="h-screen">
+  <body class="min-h-screen">
     <header class="flex justify-around pt-4 pb-4 items-center">
       <div class="flex gap-2">
         <img src="./public/Mask Group.png" alt="" />
@@ -87,9 +87,9 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="flex justify-end">
           <img
-            class="mt-60 ml-50 w-110 h-110 z-50 object-contain"
+            class="mt-60 ml-50 w-110 h-110 z-50 object-contain drop-shadow-2xl"
             src="./public/ChatGPT Image Jun 1, 2026, 02_18_39 AM.png"
             alt=""
           />
@@ -229,7 +229,7 @@
         </div>
       </section>
       <section
-        class="flex flex-col justify-center items-center text-center gap-5 pt-16 relative pb-10"
+        class="flex flex-col justify-center items-center text-center gap-5 pt-16 relative pb-10 overflow-hidden"
       >
         <h2 class="text-2xl font-bold">Popular items</h2>
         <div class="flex gap-1">
@@ -294,12 +294,8 @@
             </button>
           </div>
         </div>
-        <img class="absolute -left-5" src="./public/Arrow Left.png" alt="" />
-        <img
-          class="absolute -right-[10px]"
-          src="./public/Arrow Right.png"
-          alt=""
-        />
+        <img class="absolute -left-2" src="./public/Arrow Left.png" alt="" />
+        <img class="absolute right-1" src="./public/Arrow Right.png" alt="" />
       </section>
     </main>
 
