@@ -42,7 +42,7 @@
     </header>
     <main>
       <section
-        class="bg-[#fccd1f] h-155 flex justify-between pl-24 items-center pr-12"
+        class="bg-[#fccd1f] h-155 flex justify-between pl-24 items-center pr-12 overflow-hidden"
       >
         <div class="flex flex-col gap-4 w-175 h-89">
           <h1 class="text-[#fbfff8] text-6xl font-bold">Are you starving?</h1>
@@ -89,7 +89,7 @@
         </div>
         <div>
           <img
-            class="mt-60 ml-50 w-110 h-110 z-50"
+            class="mt-60 ml-50 w-110 h-110 z-50 object-contain"
             src="./public/ChatGPT Image Jun 1, 2026, 02_18_39 AM.png"
             alt=""
           />
@@ -234,70 +234,72 @@
         <h2 class="text-2xl font-bold">Popular items</h2>
         <div class="flex gap-1">
           <div class="flex flex-col gap-2 justify-start items-start">
-          <img class="w-62.5 h-62.5" src="public/Frame 40.png" alt="" />
-          <p class="font-bold">Cheese Burger</p>
-          <div class="flex gap-2 items-center">
-            <img src="./public/Icon-21.png" alt="" />
-            <p class="text-[#dbc468] font-bold text-xl">Burger Arena</p>
+            <img class="w-62.5 h-62.5" src="public/Frame 40.png" alt="" />
+            <p class="font-bold">Cheese Burger</p>
+            <div class="flex gap-2 items-center">
+              <img src="./public/Icon-21.png" alt="" />
+              <p class="text-[#dbc468] font-bold text-xl">Burger Arena</p>
+            </div>
+            <span class="font-bold">$3.88</span>
+            <button class="bg-[#f3712b] text-white w-65 h-10 rounded-xl">
+              Order Now
+            </button>
           </div>
-          <span class="font-bold">$3.88</span>
-          <button class="bg-[#f3712b] text-white w-65 h-10 rounded-xl">
-            Order Now
-          </button>
-        </div>
-        <div class="flex flex-col gap-2 justify-start items-start">
-          <img class="w-62.5 h-62.5" src="public/Frame 40 (1).png" alt="" />
-          <p class="font-bold">Toffe’s Cake</p>
-          <div class="flex gap-2 items-center">
-            <img src="./public/Icon-21.png" alt="" />
-            <p class="text-[#dbc468] font-bold text-xl">Top Sticks</p>
+          <div class="flex flex-col gap-2 justify-start items-start">
+            <img class="w-62.5 h-62.5" src="public/Frame 40 (1).png" alt="" />
+            <p class="font-bold">Toffe’s Cake</p>
+            <div class="flex gap-2 items-center">
+              <img src="./public/Icon-21.png" alt="" />
+              <p class="text-[#dbc468] font-bold text-xl">Top Sticks</p>
+            </div>
+            <span class="font-bold">$4.00</span>
+            <button class="bg-[#f3712b] text-white w-65 h-10 rounded-xl">
+              Order Now
+            </button>
           </div>
-          <span class="font-bold">$4.00</span>
-          <button class="bg-[#f3712b] text-white w-65 h-10 rounded-xl">
-            Order Now
-          </button>
-        </div>
-        <div class="flex flex-col gap-2 justify-start items-start">
-          <img class="w-62.5 h-62.5" src="public/Frame 40 (2).png" alt="" />
-          <p class="font-bold">Dancake</p>
-          <div class="flex gap-2 items-center">
-            <img src="./public/Icon-21.png" alt="" />
-            <p class="text-[#dbc468] font-bold text-xl">Cake World</p>
+          <div class="flex flex-col gap-2 justify-start items-start">
+            <img class="w-62.5 h-62.5" src="public/Frame 40 (2).png" alt="" />
+            <p class="font-bold">Dancake</p>
+            <div class="flex gap-2 items-center">
+              <img src="./public/Icon-21.png" alt="" />
+              <p class="text-[#dbc468] font-bold text-xl">Cake World</p>
+            </div>
+            <span class="font-bold">$1.99</span>
+            <button class="bg-[#f3712b] text-white w-65 h-10 rounded-xl">
+              Order Now
+            </button>
           </div>
-          <span class="font-bold">$1.99</span>
-          <button class="bg-[#f3712b] text-white w-65 h-10 rounded-xl">
-            Order Now
-          </button>
-        </div>
-        <div class="flex flex-col gap-2 justify-start items-start">
-          <img class="w-62.5 h-62.5" src="public/Frame 40-.png" alt="" />
-          <p class="font-bold">Crispy Sandwitch</p>
-          <div class="flex gap-2 items-center">
-            <img src="./public/Icon-21.png" alt="" />
-            <p class="text-[#dbc468] font-bold text-xl">Fastfood Dine</p>
+          <div class="flex flex-col gap-2 justify-start items-start">
+            <img class="w-62.5 h-62.5" src="public/Frame 40-.png" alt="" />
+            <p class="font-bold">Crispy Sandwitch</p>
+            <div class="flex gap-2 items-center">
+              <img src="./public/Icon-21.png" alt="" />
+              <p class="text-[#dbc468] font-bold text-xl">Fastfood Dine</p>
+            </div>
+            <span class="font-bold">$3.00</span>
+            <button class="bg-[#f3712b] text-white w-65 h-10 rounded-xl">
+              Order Now
+            </button>
           </div>
-          <span class="font-bold">$3.00</span>
-          <button class="bg-[#f3712b] text-white w-65 h-10 rounded-xl">
-            Order Now
-          </button>
-        </div>
-        <div class="flex flex-col gap-2 justify-start items-start">
-          <img class="w-62.5 h-62.5" src="public/Frame 40 (3).png" alt="" />
-          <p class="font-bold">Thai  Soup</p>
-          <div class="flex gap-2 items-center">
-            <img src="./public/Icon-21.png" alt="" />
-            <p class="text-[#dbc468] font-bold text-xl">Foody man</p>
+          <div class="flex flex-col gap-2 justify-start items-start">
+            <img class="w-62.5 h-62.5" src="public/Frame 40 (3).png" alt="" />
+            <p class="font-bold">Thai Soup</p>
+            <div class="flex gap-2 items-center">
+              <img src="./public/Icon-21.png" alt="" />
+              <p class="text-[#dbc468] font-bold text-xl">Foody man</p>
+            </div>
+            <span class="font-bold">$2.79</span>
+            <button class="bg-[#f3712b] text-white w-65 h-10 rounded-xl">
+              Order Now
+            </button>
           </div>
-          <span class="font-bold">$2.79</span>
-          <button class="bg-[#f3712b] text-white w-65 h-10 rounded-xl">
-            Order Now
-          </button>
         </div>
-       
-        </div>
-        <img class="absolute -left-5" src="./public/Arrow Left.png" alt="">
-        <img class="absolute -right-[10px]" src="./public/Arrow Right.png" alt="">
-
+        <img class="absolute -left-5" src="./public/Arrow Left.png" alt="" />
+        <img
+          class="absolute -right-[10px]"
+          src="./public/Arrow Right.png"
+          alt=""
+        />
       </section>
     </main>
 
