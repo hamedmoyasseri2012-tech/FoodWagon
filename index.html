@@ -670,7 +670,7 @@
               alt=""
             />
             <h1
-              class="text-4xl font-extrabold bg-gradient-to-r from-orange-600 to-orange-400 bg-clip-text text-transparent leading-tight"
+              class="text-4xl font-extrabold bg-linear-to-r from-orange-600 to-orange-400 bg-clip-text text-transparent leading-tight"
             >
               Daily
               <br />
@@ -754,7 +754,7 @@
           </div>
         </div>
       </section>
-      <section class="flex flex-col pt-12">
+      <section class="flex flex-col pt-12 pb-12">
         <div class="flex justify-center items-center">
           <div class="flex flex-col items-start gap-12 pr-10">
             <h1 class="w-[407px] h-[40px] text-4xl font-bold text-[#353535]">
@@ -874,9 +874,9 @@
           <div class="flex flex-col gap-3">
             <h1 class="text-[#e5e5e5] font-bold">Contact</h1>
             <ul class="text-[#545454] flex flex-col gap-2">
-              <li>Help & Support</li>
-              <li>Partner with us</li>
-              <li>Ride with us</li>
+              <li class="w-[115px] h-[18px]">Help & Support</li>
+              <li class="w-[115px] h-[18px]">Partner with us</li>
+              <li class="w-[92px] h-[18px]">Ride with us</li>
             </ul>
           </div>
           <div class="flex flex-col gap-3">
@@ -889,10 +889,14 @@
             </ul>
           </div>
         </div>
-        <div class="flex flex-col gap-5 justify-start items-start pl-96">
+        <div class="flex flex-col gap-5 justify-start items-start pl-80">
           <p class="text-[#737373]">Follow Us</p>
           <div class="flex gap-5">
-            <img class="bg-[F5F5F5]" src="./public/1.png" alt="" />
+            <img
+              class="bg-gray-400 bg-clip-text text-transparent"
+              src="./public/1.png"
+              alt=""
+            />
             <img src="./public/2.png" alt="" />
             <img src="./public/3.png" alt="" />
           </div>
@@ -902,7 +906,7 @@
           <div class="flex gap-2">
             <div class="flex items-center gap-4">
               <img
-                class="absolute left-224 text-[#6f6f6f]"
+                class="absolute left-242 text-[#6f6f6f]"
                 src="./public/envelope.png"
                 alt=""
               />
@@ -914,7 +918,7 @@
             </div>
 
             <button
-              class="w-[133px] h-[60px] items-center justify-center bg-[#ffa900] rounded-xl text-white shadow-2xl text-shadow-2xl font-bold"
+              class="w-[133px] h-[60px] items-center justify-center bg-[#ffa900] rounded-xl text-white shadow-xl/50 bg-linear-to-tr from-70%  from-[#ffa901] to-[#ff9501] shadow-amber-400 font-bold"
             >
               Subscribe
             </button>
@@ -929,7 +933,9 @@
           <span class="text-[#616161]">All rights Reserved</span>
           <img src="./public/Symbol.png" alt="" />copyright Your Company, 2021
         </p>
-        <p class="flex pr-14">Made with  by Themewagon</p>
+        <p class="flex pr-14 text-[#f8f8f8]">
+          Made with  by <span class="text-[#f5f5f5]">Themewagon</span>
+        </p>
       </div>
     </footer>
 
