@@ -232,7 +232,7 @@
         class="flex flex-col justify-center items-center text-center gap-5 pt-16 relative pb-10 overflow-hidden"
       >
         <h2 class="text-2xl font-bold">Popular items</h2>
-        <div class="flex gap-1">
+        <div id="listFood" class=" flex gap-1">
           <div class="flex flex-col gap-2 justify-start items-start">
             <img class="w-62.5 h-62.5" src="public/Frame 40.png" alt="" />
             <p class="font-bold">Cheese Burger</p>
@@ -294,8 +294,8 @@
             </button>
           </div>
         </div>
-        <img class="absolute -left-2" src="./public/Arrow Left.png" alt="" />
-        <img class="absolute right-1" src="./public/Arrow Right.png" alt="" />
+        <img id="leftarrow" class="absolute -left-2" src="./public/Arrow Left.png" alt="" />
+        <img id="rightarrow" class="absolute right-1" src="./public/Arrow Right.png" alt="" />
       </section>
       <section
         class="flex flex-col justify-center items-center gap-10 pb-8 pt-8"
@@ -306,7 +306,7 @@
         >
           <div class="flex flex-col items-start gap-4 relative">
             <img
-              class="w-[357px] h-[301px] rounded-xl"
+              class="w-89.25 h-75.25 rounded-xl"
               src="./public/Image --.png"
               alt=""
             />
@@ -320,7 +320,7 @@
                 </div>
               </div>
             </div>
-            <button class="w-[196px] h-[42px] bg-[#ffe3db] rounded-2xl">
+            <button class="w-49 h-10.5 bg-[#ffe3db] rounded-2xl">
               <p class="text-[#e37c4c] text-xl font-bold">Opens tomorrow</p>
             </button>
             <button
@@ -583,11 +583,13 @@
             </button>
             <div class="flex gap-2">
               <button
+              id="leftarrow2"
                 class="flex bg-[#ffb210] rounded-full w-[40px] h-[40px] items-center justify-center"
               >
                 <img src="./public/Icon-ww.png" alt="" />
               </button>
               <button
+              id="rightarrow2"
                 class="flex bg-[#ffb210] rounded-full w-[40px] h-[40px] items-center justify-center"
               >
                 <img src="public/Icon (1)-ww.png" alt="" />
@@ -595,7 +597,7 @@
             </div>
           </div>
         </div>
-        <div class="grid grid-cols-6 justify-center items-center pt-16">
+        <div id="listFood2" class="grid grid-cols-6 justify-center items-center pt-16">
           <div class="flex flex-col gap-4 items-center">
             <img
               class="rounded-full w-[218px] h-[218px]"
@@ -918,7 +920,7 @@
             </div>
 
             <button
-              class="w-[133px] h-[60px] items-center justify-center bg-[#ffa900] rounded-xl text-white shadow-xl/50 bg-linear-to-tr from-70%  from-[#ffa901] to-[#ff9501] shadow-amber-400 font-bold"
+              class="w-[133px] h-[60px] items-center justify-center bg-[#ffa900] rounded-xl text-white shadow-xl/50 bg-linear-to-tr from-70% from-[#ffa901] to-[#ff9501] shadow-amber-400 font-bold"
             >
               Subscribe
             </button>
